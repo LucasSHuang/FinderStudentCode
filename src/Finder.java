@@ -1,5 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.util.ArrayList;
+
 /**
  * Finder
  * A puzzle written by Zach Blick
@@ -19,6 +21,18 @@ public class Finder {
 
     public void buildTable(BufferedReader br, int keyCol, int valCol) throws IOException {
         // TODO: Complete the buildTable() function!
+        ArrayList<Integer> DJIA = new ArrayList<Integer>();
+        ArrayList<Integer> elements = new ArrayList<Integer>();
+        ArrayList<Integer> IP = new ArrayList<Integer>();
+        ArrayList<Integer> UPC = new ArrayList<Integer>();
+
+        String line;
+        while ((line = br.readLine()) != null) {
+            String[] tokens = line.split(",");
+            System.out.println(tokens[0]);
+        }
+
+
         br.close();
     }
 
