@@ -1,9 +1,11 @@
 Name: YOUR NAME HERE
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date    |   Time   |                                                                                                                                                                                                                                                                                                                                                                                             Update |
+|:--------|:--------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| April 5 |  9-10pm  |                                                                                                                                                                                                                                                                                                                                                         I tried to write abstract, efficient code. |
+| Nov 1   |  3-4pm   |     I spent some time thinking about possible ways to solve this problem and then tried to do a little bit of code. I think the best way to solve this would probably be through a hash count like the previous problem set, so I copied the code from implementing a hash count over to this set. From this I'm going to try and find a way to somehow change it in a way so that it's universal. |
+| Nov 2   | 2:30-3pm | I tried to think of a way to determine what kind of data is being inserted into the method, because that would help determine exactly what the code would have to do. To do this, I would probably have to use some kind of if statement to check the name of the file and from there implementing the kind of way I need to create the hashcount. I'm going to try to implement that a bit later. |
+|   |    |                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
