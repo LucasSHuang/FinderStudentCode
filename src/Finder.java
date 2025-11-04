@@ -21,15 +21,16 @@ public class Finder {
 
     public void buildTable(BufferedReader br, int keyCol, int valCol) throws IOException {
         // TODO: Complete the buildTable() function!
-        ArrayList<Integer> DJIA = new ArrayList<Integer>();
-        ArrayList<Integer> elements = new ArrayList<Integer>();
-        ArrayList<Integer> IP = new ArrayList<Integer>();
-        ArrayList<Integer> UPC = new ArrayList<Integer>();
-
         String line;
+        long[][] array = new long[10][10];
         while ((line = br.readLine()) != null) {
             String[] tokens = line.split(",");
             System.out.println(tokens[0]);
+            String key = tokens[keyCol];
+            String value = tokens[valCol];
+            long keyHash = getHashCount(key);
+            long valHash = getHashCount(value);
+
         }
 
 
