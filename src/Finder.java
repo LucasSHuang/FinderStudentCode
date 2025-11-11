@@ -82,6 +82,7 @@ public class Finder {
 
         // Checks to see if the index is already full and if so move on to another index until one is open
         while (keys[index] != null) {
+            // Modulate by table size to make sure it doesn't cause an index out of bounds error
             index = (index + 1) % tableSize;
         }
 
