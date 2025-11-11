@@ -1,8 +1,6 @@
 public class HashMap {
     private static final int RADIX = 256;
-    private static final long P_VALUE = 89434549747967L;
-
-    private static final int DEFAULT_TABLE_SIZE = 6767;
+    private static final int DEFAULT_TABLE_SIZE = 8429;
 
     int tableSize;
     int n;
@@ -70,9 +68,9 @@ public class HashMap {
         String[] oldKeys = keys;
         String[] oldVals = values;
 
-        // Reset and double table size
+        // Reset and double table size but add one to make it odd for less collisions
         n = 0;
-        tableSize *= 2;
+        tableSize *= 2 + 1;
         keys = new String[tableSize];
         values = new String[tableSize];
 
