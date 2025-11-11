@@ -101,7 +101,7 @@ public class Finder {
             if (keys[index].equals(key)) {
                 return values[index];
             }
-            index++;
+            index = (index + 1) % tableSize;
         }
 
         // If no match then return null
