@@ -82,7 +82,7 @@ public class Finder {
 
         // Checks to see if the index is already full and if so move on to another index until one is open
         while (keys[index] != null) {
-            index++;
+            index = (index + 1) % tableSize;
         }
 
         // Add the key and value to hashtable at that index
